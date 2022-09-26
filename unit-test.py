@@ -17,8 +17,8 @@ class TestMain(unittest.TestCase):
         self.assertTrue(is_prime(3))
         self.assertFalse(is_prime(4))
 
-    def test_upper(self):
-        self.assertEqual('foo'.upper(), 'FOO')
+    def test_len(self):
+        self.assertEqual(len([1,2,3]), 3)
     
 if __name__ == '__main__':
     unittest.main()
